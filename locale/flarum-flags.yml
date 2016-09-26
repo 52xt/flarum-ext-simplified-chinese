@@ -1,0 +1,61 @@
+flarum-flags:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      flag_posts_label: 发起提示
+      view_flags_label: 查看提示
+
+    # These translations are used in the Flags Settings modal dialog.
+    settings:
+      guidelines_url_label: 社区规则链接
+      title: 提示设置
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are used by the Flag Post modal dialog.
+    flag_post:
+      confirmation_message: 谢谢您的提醒，我们很快会处理。
+      dismiss_button: => core.ref.okay
+      reason_inappropriate_label: 言辞不恰当
+      reason_inappropriate_text: "帖子的言辞不恰当或违反了 <a>社区规则</a>"
+      reason_off_topic_label: "帖子与节点无关"
+      reason_off_topic_text: 帖子与节点不相同，应该移到别处。
+      reason_other_label: 其他原因
+      reason_spam_label: 垃圾帖子
+      reason_spam_text: 这个帖子带有广告。
+      submit_button: => flarum-flags.ref.flag_post
+      title: => flarum-flags.ref.flag_post
+
+    # These translations are used by the Flagged Posts dropdown, a.k.a. "the flag".
+    flagged_posts:
+      empty_text: 没有新提示
+      item_text: "{username} in <em>{discussion}</em>"
+      title: => flarum-flags.ref.flagged_posts
+      tooltip: => flarum-flags.ref.flagged_posts
+
+    # These translations are used by the frame displayed around flagged posts.
+    post:
+      dismiss_flag_button: 忽略提示
+      flagged_by_text: "{username} 提示"
+      flagged_by_with_reason_text: "{username} 提示到 {reason}"
+
+    # These translations are used by the post control buttons.
+    post_controls:
+      flag_button: 提示
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    flag_post: 提示
+    flagged_posts: 帖子提示
