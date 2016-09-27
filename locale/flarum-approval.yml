@@ -9,9 +9,9 @@ flarum-approval:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      approve_posts_label: 审核内容
-      reply_without_approval_label: 回复未经审核的讨论
-      start_discussions_without_approval_label: 启用未经审核的讨论
+      approve_posts_label: 审核帖子
+      reply_without_approval_label: 不经审核直接回复
+      start_discussions_without_approval_label: 不经审核直接发帖
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -34,4 +34,4 @@ flarum-approval:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    awaiting_approval: 正在等待审核
+    awaiting_approval: 正在等候审核

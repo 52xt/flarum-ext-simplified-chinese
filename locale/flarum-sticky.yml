@@ -20,13 +20,13 @@ flarum-sticky:
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      sticky_button: => flarum-sticky.ref.sticky
+      sticky_button: 置顶帖子
       unsticky_button: 取消置顶
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      discussion_stickied_text: "{username} 置顶了帖子"
-      discussion_unstickied_text: "{username} 取消了置顶帖子"
+      discussion_stickied_text: "{username} 置顶此帖"
+      discussion_unstickied_text: "{username} 取消置顶此帖"
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!

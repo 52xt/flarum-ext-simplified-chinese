@@ -22,16 +22,16 @@ flarum-likes:
     # These translations are displayed beneath individual posts.
     post:
       like_link: 赞
-      liked_by_self_text: "{users} 赞Ta"  # Can be pluralized to agree with the number of users!
-      liked_by_text: "{users} 赞Ta|{users} 赞Ta"
+      liked_by_self_text: "{users} 说赞"  # Can be pluralized to agree with the number of users!
+      liked_by_text: "{users} 说赞|{users} 说赞"
       others_link: => core.ref.some_others
-      unlike_link: 取消赞Ta
+      unlike_link: 不赞
       you_text: => core.ref.you
 
     # These translations are used by the Users Who Like This modal dialog.
     post_likes:
-      title: 赞Ta的用户
+      title: 说赞的用户
 
     # These translations are used in the Settings page.
     settings:
-      notify_post_liked_label: 有人赞我的帖子了
+      notify_post_liked_label: 有人赞我的帖子
