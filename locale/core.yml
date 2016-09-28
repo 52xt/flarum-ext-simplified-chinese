@@ -276,7 +276,7 @@ core:
     # These translations are used by the sorting control above the discussion list.
     index_sort:
       latest_button: 最新回复
-      newest_button: 最新帖子
+      newest_button: 最近帖子
       oldest_button: 历史帖子
       relevance_button: 关联推荐
       top_button: 热门帖子
@@ -419,7 +419,7 @@ core:
     # Translations in this namespace are displayed by the basic HTML content loader.
     content:
       javascript_disabled_message: 请使用现代浏览器并启用 JavaScript 以获取最佳浏览体验。
-      load_error_message: 尝试加载完整版本时出错了。
+      load_error_message: 当前访问的是简约版，使用现代浏览器访问效果更佳。
       loading_text: 正在加载...
 
     # Translations in this namespace are displayed in the basic HTML discussion view.
