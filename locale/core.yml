@@ -256,7 +256,7 @@ core:
 
     # These translations are used in the header and session dropdown menu.
     header:
-      admin_button: 后端管理
+      admin_button: 站点管理
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
       profile_button: 我的资料
@@ -523,8 +523,8 @@ core:
 
   # Translations in this namespace are used to translate default group names.
   group:
-    admin: 超级管理员
-    admins: 超级管理员
+    admin: 管理员
+    admins: 管理员
     guest: 访客
     guests: 访客
     member: 注册会员

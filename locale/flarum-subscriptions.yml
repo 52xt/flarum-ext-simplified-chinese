@@ -14,13 +14,13 @@ flarum-subscriptions:
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      follow_button: => flarum-subscriptions.ref.follow
+      follow_button: 我要关注
       unfollow_button: 取消关注
       unignore_button: 取消忽视
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
-      following_link: => flarum-subscriptions.ref.following
+      following_link: 我的关注
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:

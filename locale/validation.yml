@@ -74,7 +74,7 @@ validation:
     content: 内容
     name_singular: 单数名称
     name_plural: 复数名称
-    tag_count_primary: 节点数量
+    tag_count_primary: 话题数量
     tag_count_secondary: 标签数量
 
   custom:
