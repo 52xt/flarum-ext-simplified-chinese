@@ -12,7 +12,7 @@
             "dev-master": "0.1.x-dev"
         },
         "flarum-extension": {
-            "title": "Simplified Chinese",
+            "title": "Chinese",
             "icon": {
                 "image": "icon.svg",
                 "backgroundColor": "#DE2910",
