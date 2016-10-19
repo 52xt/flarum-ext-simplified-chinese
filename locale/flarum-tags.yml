@@ -46,7 +46,7 @@ flarum-tags:
 
     # These translations are used in the Tags page.
     tags:
-      about_tags_text: "话题用于分类帖子。话题类似于传统论坛的版块；标签无层级或顺序，可作为子分类或关键词。"
+      about_tags_text: "话题用于分类帖子，话题类似于传统论坛的版块，而标签是无层级和顺序。"
       create_tag_button: => flarum-tags.ref.create_tag
       primary_heading: 话题
       secondary_heading: 标签

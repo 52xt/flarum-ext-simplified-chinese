@@ -15,14 +15,14 @@ core:
 
     # These translations are used in the Appearance page.
     appearance:
-      colored_header_label: 彩色页眉
+      colored_header_label: 彩色导航
       colors_heading: 颜色
       colors_text: "选择两种颜色作为主题色。第一种用于高亮显示颜色，第二种用于主题的背景元素。"
       custom_header_heading: 自定义页眉
-      custom_header_text: "添加HTML代码以生成自定义页眉，此设置将添加站点页眉上面。"
+      custom_header_text: "添加HTML代码以生成自定义页眉，此设置将添加站点页眉顶部。"
       custom_styles_heading: 自定义样式
       custom_styles_text: 添加LESS/CSS代码以生成自定义外观，此设置将覆盖站点默认样式。
-      dark_mode_label: 暗黑模式
+      dark_mode_label: 暗色模式
       edit_css_button: 编辑自定义样式
       edit_header_button: 编辑自定义页眉
       enter_hex_message: 请输入十六进制颜色代码。
@@ -37,14 +37,14 @@ core:
       all_discussions_label: => core.ref.all_discussions
       default_language_heading: 默认语言
       forum_description_heading: 站点描述
-      forum_description_text: 通过简短的两句话描述站点，这将会添加于Meta标签中，并显示于搜索引擎结果中。
+      forum_description_text: 通过简短的语句描述站点，这将会添加于Meta标签中，并显示在搜索引擎结果中。
       forum_title_heading: 站点名称
       home_page_heading: 默认首页
-      home_page_text: "选择一个页面作为首页，若要自定义，请使用站点根目录相对路径。"
+      home_page_text: "选择一个页面作为默认首页，若要自定义，请使用站点根目录相对路径。"
       saved_message: 更改已保存
       submit_button: => core.ref.save_changes
       welcome_banner_heading: 欢迎横幅
-      welcome_banner_text: 横幅文本将显示于「所有帖子」页面顶部，用以欢迎新到访的游客。
+      welcome_banner_text: 横幅内容将显示在默认首页的面包屑导航，用以欢迎新到访的游客。
 
     # These translations are used in the Dashboard page.
     dashboard:
@@ -54,7 +54,7 @@ core:
       features_text: "有好的主意来改善功能？请来这告诉我们<a>特性标签</a>"
       support_text: "找到一个Bug？请在这里反馈<a>支持标签</a>"
       troubleshooting_text: "有问题吗？请阅读<a>故障排除文档</a> "
-      version_text: "感谢使用Flarum！当前运行的版本是{version}"
+      version_text: "感谢使用Flarum！当前运行的版本：{version}"
       welcome_text: "欢迎使用 Flarum！"
 
     # These translations are used in the Edit Custom CSS modal dialog.
@@ -115,7 +115,7 @@ core:
     # These translations are used in the navigation bar.
     nav:
       appearance_button: 外观设置
-      appearance_text: "自定义颜色、Logo以及其他元素"
+      appearance_text: "自定义外观及其他元素"
       basics_button: 基本设置
       basics_text: "设置站点名称、语言以及其他基本设置"
       dashboard_button: 仪表盘
@@ -195,7 +195,7 @@ core:
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      body_placeholder: 撰写点什么...
+      body_placeholder: 撰写一些关于此话题的内容...
       discard_confirmation: "帖子尚未发布，是否丢弃？"
       submit_button: 发布
       title: => core.ref.start_a_discussion
@@ -487,7 +487,7 @@ core:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    all_discussions: 所有帖子
+    all_discussions: 全部帖子
     change_email: 更改邮箱
     change_password: 更改密码
     confirm_password: 确认密码
@@ -514,7 +514,7 @@ core:
     some_others: "{count} 人|{count} 人"  # Referenced by flarum-likes.yml, flarum-mentions.yml
     start_a_discussion: 发起帖子
     username: 用户名
-    write_a_reply: 来说点什么吧...
+    write_a_reply: 说点你的看法...
     you: 你                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
   ##
